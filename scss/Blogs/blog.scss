@@ -1,0 +1,104 @@
+.main-wrapper-section{
+    .blog-banner-wrapper{
+        background-color: transparent;
+        background-image: linear-gradient(180deg, #15113C 625%, #15113C 75%);
+        transition: all 0.3s;
+        padding: 0px 0px 0px 0px;
+        position: relative;
+        .banner-background-overlay{
+            background: url('../../images/bitcoin3-01.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            opacity: 0.25;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
+        .blog-banner-inner{
+
+            ol.breadcrumb{
+                margin: 24px 0 0 0;
+                li{
+                    a{
+                        color: #ffffff;
+                        font-weight: 4000;
+                    }
+                    &.active{
+                        color: #ffffff;
+                        font-weight: 700;
+                        }
+                    &::before{
+                        color: #fff;
+                    }
+                }
+            } 
+            
+        }
+        .blogbanner-inner-text{
+            visibility: hidden;
+        }
+        .banner-inner-text{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+            color: #FFFFFF;            
+        }
+    }
+    .blog-card-wrapper{
+        background-color: transparent;
+        background-image: linear-gradient(180deg, #15113C 25%, #241f61 75%);
+        transition: all 0.3s;
+        padding: 100px 0px 100px 0px;
+        .card{
+            border: none;
+            background-color: #ffffff24;
+            box-shadow: 0px 0px 25px 0px rgb(255 255 255 / 18%);
+            border-radius: 5px 5px 5px 5px;
+            margin: 0px 15px 30px 0px;
+            border-style: solid;
+            border-width: 0px 0px 5px 0px;
+            border-color: #03c4a1;   
+            &:hover img{
+                transform: rotate(6deg) scale(1.2);
+            }
+            .img-wrapper{
+                width: auto;
+                height: auto;
+                overflow: hidden;
+                img{
+                    transition: all 1s;
+                }
+            }    
+            .card-body{
+                padding: 20px 40px 40px;
+                .card-title{
+                    margin-bottom: 28px;
+                    a{
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 33px;
+                        color: #FFFFFF;                    
+                    }
+                }
+                .card-text{
+                   
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 27px; 
+                    color: #FFFFFF;                    
+                }
+            }     
+        }
+        .single-page-text{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #FFFFFF;
+            margin-bottom: 0.9rem; 
+        }
+    }
+}

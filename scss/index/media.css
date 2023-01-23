@@ -1,0 +1,46 @@
+@media (max-width: 1440px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .main-wrapper-section .hero-cd-section .inner-section {
+    flex-direction: column-reverse;
+  }
+  .main-wrapper-section .whychooseus-main-wrapper .ourusp-main {
+    grid-template-rows: 278px auto 278px;
+  }
+  .main-wrapper-section .team-questionaire-wrap .faq-wrapper {
+    grid-template-rows: 442px auto;
+  }
+  .main-wrapper-section .team-questionaire-wrap .faq-wrapper .faq-block .accordian {
+    width: 400px;
+  }
+  .main-wrapper-section .team-questionaire-wrap .our-team {
+    flex-direction: column;
+    padding: 42px 0% 42px 2%;
+  }
+  .main-wrapper-section .feedback-wrapper .terimonial-cell {
+    grid-template-rows: 380px auto;
+  }
+  .main-wrapper-section .deliver-excellence .inner-wrap {
+    grid-template-rows: 420px auto;
+  }
+  .main-wrapper-section .deliver-excellence .inner-wrap .benefit-matrix-wrapper {
+    grid-template-rows: 1fr 1fr;
+  }
+  .main-wrapper-section .contact-wrapper-outer .contact-wrapper .contact-frm-panel .form-cell.three-col {
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 24px;
+  }
+  .main-wrapper-section .footer-wrapper .footer-inner {
+    grid-template-rows: 1.5fr 1fr 1.5fr 1fr;
+  }
+  .main-wrapper-section .copyright-wrapper .bottom-inner {
+    grid-template-rows: 1fr auto;
+  }
+  .main-wrapper-section .copyright-wrapper .bottom-inner .item-cell ul.bot-link {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=media.css.map */

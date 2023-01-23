@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" /> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"   
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="scss/index/swiper-bundle.min.css">
+    <script src="js/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="scss/index/index.css" />
+    <link rel="stylesheet" href="scss/index/mediaQuery.css">
+    <!-- <script src="js/particle-bg.js"></script> -->
+    <title>CHAINDECK</title>
+  </head>
+  <body class="carousel-bg">
+    <div class="preloader-wrap">
+        
+      <div class="percentage" id="precent"></div>
+      
+      <div class="loader">
+          
+        <div class="trackbar">
+          <div class="loadbar"></div>
+        </div>
+        <div class="title-txt"><h2>Please wait...Loading infromation for you!!!</h2></div>
+        <div class="glow"></div>
+      </div>
+  </div>
+    <header class="header-main-wrapper">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg header-inner" id="navbar">
+        <div class="container">
+          <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <img
+              src="images/chaindeck-logo-header.svg"
+              alt="logo"
+              class="img-fluid"
+              srcset=""
+            />
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="blog.html" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="#developer" class="nav-link">Developers</a>
+              </li>
+              <li class="nav-item">
+                <a href="#faq" class="nav-link">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact Us</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+    </header>
+    <main class="main-wrapper-section main-content">
+      <!-- Powerfull blockChainData Start -->
+      <section class="hero-cd-section">
+        <div class="container inner-section">
+          <div class="item-cell blockChainData">
+            <h1>
+              We deploy, <br/>monitor, backup <br/><span>blockchain nodes</span> 
+            </h1>
+            <!-- <h2>Chaindeck is a Layer 1 blockchain created for safe development, and built with user experience as a core focus.</h2> -->
+            <div class="btn-wrap">
+              <a href="#" class="getStart-btn">Count me in</a>
+            </div>
+          </div>
+          <div class="item-cell img-wrap">
+            <img
+              src="images/chaindeck-img01.svg"
+              alt="blockchain-Img"
+              class="img-fluid"
+              srcset=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- end -->
+      <section class="customers-section customers-section">
+        <div class="container inner-section">
+          <h2>We are live on</h2>
+          <div class="cust-brand-wrapper">
+            <img
+            src="images/ethereum.svg"
+            alt="Blockchain Node"
+            class="img-fluid"
+            srcset=""
+            />
+            <img
+              src="images/polygon-logo.svg"
+              alt="Blockchain Node"
+              class="img-fluid"
+              srcset=""
+            />
+            <img
+              src="images/bsc-logo.svg"
+              alt="Blockchain Node"
+              class="img-fluid"
+              srcset=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Why choose us Start -->
+      <section class="container whychooseus-main-wrapper">
+        
+        <div class="title-header">
+          <h6>Our Products</h6>
+          <h1>Deploy and Run a Better App with Our Products</h1>
+     
+        </div>
+        <div class="ourusp-main tab-wrapper-outer">
+          <div class="cycle-tab-container">
+            <div class="show_MD">
+              <ul class="nav nav-tabs">
+                  <li class="cycle-tab-item active">
+                    <a class="nav-link" role="tab" data-toggle="tab" href="#1">Dedicated Nodes</a>
+                  </li>
+                  <li class="cycle-tab-item"> 
+                    <a class="nav-link" role="tab" data-toggle="tab" href="#2">Monitoring & Alerting</a>
+                  </li>
+                  <li class="cycle-tab-item">
+                    <a class="nav-link" role="tab" data-toggle="tab" href="#3">Automated Backup & Restore nodes</a>
+                  </li>
+                  <li class="cycle-tab-item">
+                    <a class="nav-link" role="tab" data-toggle="tab" href="#4">Serverless Blockchain</a>
+                  </li>
+              </ul>
+            </div>
+            <div class="show_SM">
+              <ul class="nav nav-tabs">
+                <li class="cycle-tab-item active">
+                  <a class="nav-link" role="tab" data-toggle="tab" href="#1"></a>
+                </li>
+                <li class="cycle-tab-item">
+                  <a class="nav-link" role="tab" data-toggle="tab" href="#2"></a>
+                </li>
+                <li class="cycle-tab-item">
+                  <a class="nav-link" role="tab" data-toggle="tab" href="#3"></a>
+                </li>
+                <li class="cycle-tab-item">
+                  <a class="nav-link" role="tab" data-toggle="tab" href="#4"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content">
+              <div
+                class="tab-pane fade active in"
+                id="1"
+                role="tabpanel"
+                aria-labelledby="1-tab"
+              >
+              <div class="tab-content-row">
+                <div class="tab-content-cell">
+                  <h2>Dedicated Nodes</h2>
+                  <p>We provide Exclusive node deployments for Ethereum,BSC and Polygon with low latency and high efficency</p>
+                </div>
+                <div class="tab-content-cell">
+                  <img src="images/bc-node2.png" alt="Blockchain Node" class="img-fluid" srcset="" />
+                </div>
+              </div>
+
+              </div>
+              <div
+                class="tab-pane fade"
+                id="2"
+                role="tabpanel"
+                aria-labelledby="2-tab"
+              >
+              <div class="tab-content-row">
+                <div class="tab-content-cell">
+                  <h2>Monitoring and alerting</h2>
+                  <p> Showing the live metrics of the node such as</p>
+                  <ul>
+                    <li>Transaction Processed</li>
+                    <li>Block Size</li>
+                    <li>Most Recent Block</li>
+                    <li>Connected Peers</li>
+                  </ul>
+                </div>
+                <div class="tab-content-cell">
+                  <img src="images/bc-monitor.png" alt="Blockchain Monitoring" class="img-fluid" srcset="" />
+                </div>
+              </div>
+              
+                
+                
+              </div>
+              <div
+                class="tab-pane fade"
+                id="3"
+                role="tabpanel"
+                aria-labelledby="3-tab"
+              >
+                <div class="tab-content-row">
+                  <div class="tab-content-cell">
+                    <h2>Automated backup and restore nodes</h2>
+                    <p>Backed up data in compressed format allow for quicker data download and node sync compared to traditional download</p>
+                  </div>
+                  <div class="tab-content-cell">
+                    <img src="images/blockchain-architecture.svg" alt="Blockchain Node" class="img-fluid" srcset="" />
+                  </div>
+                </div>
+                
+              </div>
+              <div
+                class="tab-pane fade"
+                id="4"
+                role="tabpanel"
+                aria-labelledby="4-tab"
+              >
+                <div class="tab-content-row">
+                  <div class="tab-content-cell">
+                    <h2>Serverless blockchain: Coming Soon</h2>
+                    <p>Stay tuned and never miss out on the announcement of new features!</p>
+                  </div>
+                  <div class="tab-content-cell">
+                    <img src="images/blockchain011.svg" alt="Blockchain Node" class="img-fluid" srcset="" />
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="btn-wrap">
+          <a href="#" class="getStart-btn">Book a demo</a>
+        </div>
+        <div class="footer-shape"><img src="images/footer-shape-one.png" alt="Image"><img src="images/footer-shape-two.png" alt="Image"></div>
+        <!-- <div class="footer-shape footer-round-shape"><img src="images/shape-cricle.png" alt="shape"></div> -->
+        <!-- <div class="background-overlay"></div> -->
+      </section>
+
+      <!-- Why choose us End -->
+
+      
+      
+
+      <!-- FAQ & Team Information -->
+      <section class="team-questionaire-wrap" id="particles-js">
+        <div class="container" id="faq">
+          <div class="faq-title">
+            <h6>We Deliver Excellence</h6>
+            <h1>Why Choose us</h1>
+            
+          </div>
+          <div class="faq-wrapper">
+            
+            <div class="faq-block">
+             
+           
+              <div class="benefit-matrix-wrapper">
+                <div class="matrix-cell">
+                  <i class="icons securesystem-icon"></i>
+                  <h2>Latency</h2>
+                  <h4>Upto 100 times faster RPC calls</h4>
+                </div>
+                <div class="matrix-cell">
+                  <i class="icons credibility-icon"></i>
+                  <h2>Reliable</h2>
+                  <h4>Daily backups make it easy to recover after disasters</h4>
+                </div>
+                <div class="matrix-cell">
+                  <i class="icons apisupport-icon"></i>
+                  <h2>Scale-up</h2>
+                  <h4>Scale up on-premise devices in hours, not weeks</h4>
+                </div>
+                <div class="matrix-cell">
+                  <i class="icons support-icon"></i>
+                  <h2>Secure</h2>
+                  <h4>Secure private blockchain node deployment</h4>
+                </div>
+              </div>
+            </div>
+           
+            <div class="img-wrap">
+              <img
+                src="images/imagecrypto-templat.svg"
+                alt="blockchain-Img"
+                class="img-fluid"
+                srcset=""
+              />
+            </div>
+          </div>
+          <div class="faq-title centered">
+            <h6>DEDICATED NODES</h6>
+            <h1>Private Blockchain Nodes <br/><span>Built to Boost Up Your Project</span></h1>
+            
+          </div>
+          <div class="dedicated-nodes">
+            
+            <div class="terimonial-card-cell swiper">
+                <div class="swiper-wrapper">
+                  <div class="card-cell swiper-slide">
+                    <div class="node-block">
+                      <div class="node-cell">
+                        <h2>Dedicated Node for BNB Smart Chain (Binance Smart Chain) (BSC)</h2>
+                        <h4>Reach out to us & learn more about conditions and pricing!</h4>
+                        <ul>
+                          <li>Get exclusive access to archive data!</li>
+                          <li>Use various API interfaces: JSON-RPC, WS, GraphQL, etc.</li>
+                          <li>Connect to any network (mainnet, testnet, etc.)</li>
+                          <li>Integrate with any 3rd-party software to be run by your</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+                <div class="card-cell swiper-slide">
+                    <div class="node-block">
+                      <div class="node-cell">
+                        <h2>Dedicated Node for Polygon (MATIC)</h2>
+                        <h4>Reach out to us & learn more about conditions and pricing!</h4>
+                        <ul>
+                          <li>Get exclusive access to archive data!</li>
+                          <li>Use various API interfaces: JSON-RPC, WS, GraphQL, etc.</li>
+                          <li>Connect to any network (mainnet, testnet, etc.)</li>
+                          <li>Integrate with any 3rd-party software to be run by your</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+                          
+                <div class="card-cell swiper-slide">
+                    <div class="node-block">
+                      <div class="node-cell">
+                        <h2>Dedicated Node for Ethereum (ETH)</h2>
+                        <h4>Reach out to us & learn more about conditions and pricing!</h4>
+                        <ul>
+                          <li>Choose the required client: Besu, Geth, Nethermind, etc.</li>
+                          <li>Use various API interfaces: JSON-RPC, WS, GraphQL, etc.</li>
+                          <li>Connect to any network (mainnet, testnet, etc.)</li>
+                          <li>Integrate with any 3rd-party software to be run by your</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+
+              </div>
+              <!-- <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div> -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+
+ 
+      <!-- Feedback section Start -->
+      <section class="container feedback-wrapper">
+        <div class="faq-title centered">
+          <h6>Trusted by Our Customers</h6>
+          <h1>From testing to full-scale development!</span></h1>
+          
+        </div>
+        <div class="node-box-wrapper">
+          
+          <div class="customerFeedback-box">
+            <div class="customer-feedback-txt">
+              Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusan
+            </div>
+            <div class="customer-detail-wrap">
+              <div class="customer-icon">
+                <i class=""
+                  ><img
+                    src="images/customer-logo.svg"
+                    alt=""
+                    srcset=""
+                /></i>
+              </div>
+              <div class="customer-info">
+                <h2>Nikhi</h2>
+                <h6>Zeeq</h6>
+              </div>
+            </div>
+          </div>
+          <div class="customerFeedback-box">
+            <div class="customer-feedback-txt">
+              “Sed ut perspiciatis, unde omnis iste natus error sit
+              voluptatem Sed ut perspiciatis, unde omnis iste
+            </div>
+            <div class="customer-detail-wrap">
+              <div class="customer-icon">
+                <i class=""
+                  ><img
+                    src="images/customer-logo.svg"
+                    alt=""
+                    srcset=""
+                /></i>
+              </div>
+              <div class="customer-info">
+                <h2>Nishchal</h2>
+                <h6>Prodigal AI</h6>
+              </div>
+            </div>
+          </div>
+          <div class="customerFeedback-box">
+            <div class="customer-feedback-txt">
+              Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusan
+            </div>
+            <div class="customer-detail-wrap">
+              <div class="customer-icon">
+                <i class=""
+                  ><img
+                    src="images/customer-logo.svg"
+                    alt=""
+                    srcset=""
+                /></i>
+              </div>
+              <div class="customer-info">
+                <h2>Nikhi</h2>
+                <h6>Zeeq</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        </div>
+      </section>
+
+      <!-- End -->
+
+      <!-- Latest News Start -->
+      <section class="latestNews-wrapper">
+        <svg width="100%" height="300px" viewBox="0 0 1200 300" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <g class="curve" stroke="#fff" fill="none" fill-rule="evenodd" transform="translate(0,90)">
+            <path id="glowPath" d="M 0, 60 S 300, -60, 600, 60, 800, -120, 1200 60"></path>
+            <path d="M 0, 60 S 200, -60, 400, 60, 900, -120, 1200 60"></path>
+            <path d="M 0, 60 S 200, -70, 400, 70, 800, -120, 1200 60"></path>
+          </g>
+        </svg>
+        <div class="container latestNews-main-wrapper">
+          <div class="item-cell gd-logo">
+            <img
+              src="images/GD.svg"
+              alt="gd-logo"
+              class="img-fluid"
+              srcset=""
+            />
+          </div>
+          <div class="item-cell title">
+            <h2>To save cost on web3 infrastructure, </h2>
+            <h6>
+              BOOK A DEMO NOW
+            </h6>
+          </div>
+          <div class="item-cell btn-wrap">
+            <a
+              href="#"
+              target="_blank"
+              class="news-btn"
+              rel="noopener noreferrer"
+              >Get Started</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- Latest News End -->
+
+      <!-- Contact Us Start -->
+      <section class="contact-wrapper-outer" id="contact">
+        <div class="container contact-wrapper">
+          <div class="title-wrap">
+            <h6>Get in touch</h6>
+            <h1>Contact Us</h1>
+            <h2>If you have any questions about our service, want to team up or leave feedback, send us a message and we will get back to you shortly.</h2>
+          </div>
+          <div class="contact-frm-panel">
+            <form class="form-wrapper">
+              <div class="form-cell three-col">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Name *"
+                  aria-label="First name"
+                />
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email *"
+                  aria-label="Last name"
+                />
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Website *"
+                  id="inputEmail4"
+                />
+              </div>
+
+              <div class="form-cell one-col">
+                <textarea
+                  class="form-control textarea"
+                  placeholder="Your Comment *"
+                  id="exampleFormControlTextarea1"
+                  rows="4"
+                ></textarea>
+              </div>
+              <div class="form-cell btn-wrap">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn"
+                  rel="noopener noreferrer"
+                  >Get Started</a
+                >
+              </div>
+     
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Us End -->
+
+      <!-- Footer Start -->
+      <section
+        class="container footer-wrapper wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="footer-inner">
+          <div class="item-cell">
+            <a
+              href="index.html"
+              target="_blank"
+              class="logo"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="images/footer-logo.svg"
+                alt="blockchain-Img"
+                class="img-fluid"
+                srcset=""
+              />
+            </a>
+            <h4>
+              We are trusted From testing to full-scale development!
+            </h4>
+          </div>
+          <div class="item-cell">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a class="btn" href="">About Us</a></li>
+              <li><a class="btn" href="">Contact Us</a></li>
+              <li><a class="btn" href="">Our Services</a></li>
+              <li><a class="btn" href="">Terms & Condition</a></li>
+              <li><a class="btn" href="">Support</a></li>
+            </ul>
+          </div>
+          <div class="item-cell">
+            <h2>Quick Links</h2>
+            <h3>
+              Subscribe to newsletter and stay up to date with all updates:
+            </h3>
+            <div class="subscription-panel">
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Your Email Address"
+              />
+              <button type="button" class="subscribe-btn">Subscribe</button>
+            </div>
+          </div>
+          <div class="item-cell social-media-wrap">
+            <h2>Follow us on</h2>
+            <div class="social-icons">
+              <a class="social-link" href=""><i class="icons medium-icon"></i></a>
+              <a class="social-link" href=""><i class="icons twitter-icon"></i></a>
+              <a class="social-link" href=""><i class="icons discord-icon"></i></a>
+             
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Footer End -->
+
+      <!-- Copyright Start -->
+      <section class="copyright-wrapper">
+        <div class="container bottom-inner">
+          <div class="item-cell">
+            <a class="copyright-link" href="#">Copyright &copy; 2023 CHAINDECK.</a>
+            All Right Reserved.
+          </div>
+          <div class="item-cell">
+            <ul class="bot-link">
+              <li><a class="" href="#">Terms of use</a></li>
+              <li><a class="" href="#">Privacy Policy</a></li>
+              <li><a class="" href="#">Give Us Feedback</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-6"></div>
+        </div>
+      </section>
+      <!-- Copyright End -->
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script> -->
+   
+    <script src="js/script.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/scroll-script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    
+
+    <script>
+      // Source:  http://codepen.io/ahsanrathore/post/accurate-page-progress-bar
+      var width = 100,
+        perfData = window.performance.timing, // The PerformanceTiming interface represents timing-related performance information for the given page.
+        EstimatedTime = -(perfData.loadEventEnd - perfData.navigationStart),
+        time = parseInt((EstimatedTime/1000)%60)*100;
+
+      // Loadbar Animation
+      $(".loadbar").animate({
+      width: width + "%"
+      }, time);
+
+      // Loadbar Glow Animation
+      $(".glow").animate({
+      width: width + "%"
+      }, time);
+
+      // Percentage Increment Animation
+      var PercentageID = $("#precent"),
+            start = 0,
+            end = 100,
+            durataion = time;
+            animateValue(PercentageID, start, end, durataion);
+            
+      function animateValue(id, start, end, duration) {
+
+        var range = end - start,
+          current = start,
+          increment = end > start? 1 : -1,
+          stepTime = Math.abs(Math.floor(duration / range)),
+          obj = $(id);
+        
+        var timer = setInterval(function() {
+            current += increment;
+            $(obj).text(current + "%");
+          //obj.innerHTML = current;
+            if (current == end) {
+                clearInterval(timer);
+            }
+        }, stepTime);
+      }
+
+      // Fading Out Loadbar on Finised
+      setTimeout(function(){
+      $('.preloader-wrap').fadeOut(300);
+      }, time);
+  </script>
+
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script> -->
+    <script>
+      window.addEventListener("scroll", function () {
+        let navbar = document.getElementById("navbar");
+        if (window.pageYOffset >= 46) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      });
+    </script>
+
+    <script>
+      const accordian = document.getElementsByClassName("contentBx");
+      for (i = 0; i < accordian.length; i++) {
+        accordian[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+        });
+      }
+    </script>
+    <script src="js/custom.js"></script>
+    <script src="js/swiper-carousel.js"></script>
+  </body>
+</html>
