@@ -1320,7 +1320,7 @@ canvas {
     }
 
     .footer-wrapper {
-        display: flex;
+        // display: flex;
         .footer-inner {
             display: grid;
             grid-template-columns: 1.5fr 1fr 1.5fr 1fr;
@@ -1457,7 +1457,7 @@ canvas {
         .bottom-inner {
             display: grid;
             grid-template-columns: 1fr auto;
-            column-gap: 42px;
+            column-gap: 12px;
             justify-content: space-between;
             .item-cell {
                 color: #ffffff;
@@ -1473,7 +1473,7 @@ canvas {
                     display: flex;
                     align-items: center;
                     li {
-                        margin-right: 34px;
+                        margin-right: 20px;
 
                         &:last-child {
                             margin-right: 0px;
@@ -2245,9 +2245,12 @@ canvas {
         .footer-wrapper {
             padding: 24px;
             .footer-inner {
-                display: flex;
-                flex-direction: column;
-                padding: 0;
+                // display: flex;
+                // flex-direction: column;
+                // padding: 0;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                // column-gap: 16px;
                 .item-cell {
                     display: flex;
                     flex-direction: column;
@@ -2268,7 +2271,7 @@ canvas {
         .copyright-wrapper {
             .bottom-inner {
                 display: flex;
-                flex-direction: column;
+                // flex-direction: column;
                 .item-cell {
                     ul.bot-link {
                         flex-direction: row;
@@ -2595,6 +2598,8 @@ canvas {
             .bottom-inner {
                 display: flex;
                 flex-direction: column;
+                justify-content: center;
+                align-items: center;
                 .item-cell {
                     ul.bot-link {
                         flex-direction: row;
