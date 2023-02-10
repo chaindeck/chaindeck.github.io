@@ -248,7 +248,11 @@ canvas {
             }
             .cust-brand-wrapper {
                 display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
                 column-gap: 42px;
+                row-gap: 24px;
+                justify-content: center;
             }
         }
     }
@@ -1258,7 +1262,9 @@ canvas {
                     display: flex;
                     flex-direction: column;
                     gap: 24px;
-                    min-width: 680px;
+                    // min-width: 680px;
+                    width: 100%;
+                    max-width: 680px;
                     .form-cell {
                         align-items: center;
                         display: flex;
@@ -2026,6 +2032,9 @@ canvas {
     .header-main-wrapper {
         padding: 0;
     }
+    .dedicated-nodes {
+        padding: 0 12%;
+    }
     .main-wrapper-section {
         .hero-cd-section {
             padding: 40px 20px;
@@ -2304,11 +2313,11 @@ canvas {
         .cycle-tab-item:after {
         border: none;
     }
-    .node-box-wrapper {
+    /* .node-box-wrapper {
         display: flex;
         flex-direction: column;
         row-gap: 24px;
-    }
+    } */
     .main-wrapper-section .benefit-matrix-wrapper {
         display: flex;
         flex-direction: column;
@@ -2384,6 +2393,14 @@ canvas {
     }
     .header-main-wrapper {
         padding: 0;
+    }
+    .dedicated-nodes {
+        padding: 0;
+    }
+    .node-box-wrapper {
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
     }
     .main-wrapper-section {
         .hero-cd-section {
