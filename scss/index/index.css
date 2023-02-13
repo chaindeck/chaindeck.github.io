@@ -481,6 +481,7 @@ canvas {
 }
 .main-wrapper-section .whychooseus-main-wrapper .ourusp-main.tab-wrapper-outer .tab-content {
   padding: 6% 0;
+  max-width: 850px;
 }
 .main-wrapper-section .whychooseus-main-wrapper .ourusp-main.tab-wrapper-outer .tab-content .tab-pane {
   text-align: center;
