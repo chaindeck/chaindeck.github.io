@@ -8,11 +8,76 @@
         <title>SNAPSHOT | CHAINDECK</title>
     </head>
     <body>
-        <section class="container" id="snapshot">
+        <!-- snapshot filtering start -->
+        <section class="container" id="filter">
             <h1 class="section-title">Snapshot</h1>
 
+            <!-- <p>Filter snapshot</p> -->
+            <div class="filter-container" id="snapshot-filter">
+                <button
+                    type="button"
+                    class="btn all"
+                    id="btn-all"
+                    data-filter="all"
+                >
+                    All
+                </button>
+                <button
+                    type="button"
+                    class="btn archive"
+                    id="btn-archive"
+                    data-filter="archive"
+                >
+                    Archive
+                </button>
+                <button
+                    type="button"
+                    class="btn full"
+                    id="btn-full"
+                    data-filter="full"
+                >
+                    Full Node
+                </button>
+                <button
+                    type="button"
+                    class="btn ethereum"
+                    id="btn-ethereum"
+                    data-filter="ethereum"
+                >
+                    Ethereum
+                </button>
+                <button
+                    type="button"
+                    class="btn bsc"
+                    id="btn-bsc"
+                    data-filter="bsc"
+                >
+                    BSC
+                </button>
+                <button
+                    type="button"
+                    class="btn polygon"
+                    id="btn-polygon"
+                    data-filter="polygon"
+                >
+                    Polygon
+                </button>
+                <!-- <a href="#" class="btn active" data-filter="all">All</a>
+                <a href="#" class="btn" data-filter="archive">Archive</a>
+                <a href="#" class="btn" data-filter="full">Full Node</a>
+                <a href="#" class="btn" data-filter="ethereum">Ethereum</a>
+                <a href="#" class="btn" data-filter="bsc">BSC</a>
+                <a href="#" class="btn" data-filter="polygon">Polygon</a> -->
+            </div>
+        </section>
+
+        <!-- snapshot details start -->
+        <section class="container" id="snapshots">
             <div class="ss-container">
-                <div class="card">
+                <div
+                    class="card ethereum archive"
+                    data-snapshot="ethereum archive"
+                >
                     <div class="card-logo">
                         <img
                             src="./images/ethereum-eth-logo.svg"
@@ -38,7 +103,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card ethereum full" data-snapshot="ethereum full">
                     <div class="card-logo">
                         <img
                             src="./images/ethereum-eth-logo.svg"
@@ -64,7 +129,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card bsc archive" data-snapshot="bsc archive">
                     <div class="card-logo">
                         <img
                             src="./images/bnb-bnb-logo.svg"
@@ -90,7 +155,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card bsc full" data-snapshot="bsc full">
                     <div class="card-logo">
                         <img
                             src="./images/bnb-bnb-logo.svg"
@@ -116,7 +181,10 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div
+                    class="card polygon archive"
+                    data-snapshot="polygon archive"
+                >
                     <div class="card-logo">
                         <img
                             src="./images/polygon-matic-logo.svg"
@@ -144,7 +212,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card polygon full" data-snapshot="polygon full">
                     <div class="card-logo">
                         <img
                             src="./images/polygon-matic-logo.svg"
@@ -173,5 +241,7 @@
                 </div>
             </div>
         </section>
+
+        <script src="./js/snapshot-filter.js"></script>
     </body>
 </html>
