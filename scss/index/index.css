@@ -533,7 +533,7 @@ canvas {
 }
 .main-wrapper-section .whychooseus-main-wrapper .ourusp-main.tab-wrapper-outer .fade {
   opacity: 0;
-  transition: opacity 4s ease-in-out;
+  transition: opacity 70s ease-in-out;
 }
 .main-wrapper-section .whychooseus-main-wrapper .ourusp-main.tab-wrapper-outer .fade.active {
   opacity: 1;
