@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Ethereum (Archive)",
+        "image": "./images/ethereum-eth-logo.svg",
+        "size": "5 TB",
+        "link": "https://matic-blockchain-snapshots.s3-accelerate.amazonaws.com/matic-mainnet/bor-fullnode-snapshot-2023-02-09.tar.gz",
+        "class": "ethereum archive"
+    },
+    {
+        "title": "Ethereum (Full Node)",
+        "image": "./images/ethereum-eth-logo.svg",
+        "size": "400 GB",
+        "link": "https://matic-blockchain-snapshots.s3-accelerate.amazonaws.com/matic-mainnet/bor-fullnode-snapshot-2023-02-09.tar.gz",
+        "class": "ethereum full-node"
+    },
+    {
+        "title": "BSC (Archive)",
+        "image": "./images/bnb-bnb-logo.svg",
+        "size": "7 TB",
+        "link": "https://matic-blockchain-snapshots.s3-accelerate.amazonaws.com/matic-mainnet/bor-fullnode-snapshot-2023-02-09.tar.gz",
+        "class": "bsc archive"
+    },
+    {
+        "title": "BSC (Full Node)",
+        "image": "./images/bnb-bnb-logo.svg",
+        "size": "1 TB",
+        "link": "https://matic-blockchain-snapshots.s3-accelerate.amazonaws.com/matic-mainnet/bor-fullnode-snapshot-2023-02-09.tar.gz",
+        "class": "bsc full-node"
+    },
+    {
+        "title": "Polygon Mainnet (Archive)",
+        "image": "./images/polygon-matic-logo.svg",
+        "size": "5 TB",
+        "link": "https://matic-blockchain-snapshots.s3-accelerate.amazonaws.com/matic-mainnet/bor-fullnode-snapshot-2023-02-09.tar.gz",
+        "class": "polygon archive"
+    },
+    {
+        "title": "Polygon Mainnet (Full Node)",
+        "image": "./images/polygon-matic-logo.svg",
+        "size": "1.35 TB",
+        "link": "https://matic-blockchain-snapshots.s3-accelerate.amazonaws.com/matic-mainnet/bor-fullnode-snapshot-2023-02-09.tar.gz",
+        "class": "polygon full-node"
+    }
+]
