@@ -1,3 +1,47 @@
+const snapshotListContainer = document.getElementById("snapshot-list");
+
+async function fetchData() {
+    const res = await fetch("../snaps.json");
+    const data = await res.json();
+
+    for (snap of data) {
+        snapshotListContainer.innerHTML += `
+        <div class="snapshot ${snap.tags}">
+            <span
+                class="bg-white flex items-start px-4 py-6 rounded-2xl border border-gray-200 bg-white shadow"
+            >
+                <img
+                    src="${snap.image}"
+                    alt="${snap.title}"
+                    class="w-10 p-1 mr-4 mt-1.5"
+                />
+
+                <span class="space-y-2">
+                    <span>
+                        <h3 class="text-xl font-bold">
+                            ${snap.title}
+                        </h3>
+                    </span>
+                    <p class="font-mono">
+                        ${snap.link}
+                    </p>
+                </span>
+            </span>
+        </div>
+        `;
+    }
+}
+
+/* 
+<h5
+    class="text-lg font-semibold"
+>
+    Size: <span class="font-normal">${snap.size}</span>
+</h5>
+*/
+
+fetchData();
+
 function change() {
     let typeCbs = document.querySelectorAll(".types input[type='checkbox']");
     let chainCbs = document.querySelectorAll(".chains input[type='checkbox']");

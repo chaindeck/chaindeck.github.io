@@ -8,10 +8,11 @@
         <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
         <title>SNAPSHOT | CHAINDECK</title>
     </head>
+
     <body>
         <div class="bg-gray-50 min-h-screen">
             <div>
-                <div
+                <!-- <div
                     class="relative z-40 lg:hidden"
                     role="dialog"
                     aria-modal="true"
@@ -31,7 +32,7 @@
                                     class="-mr-2 flex h-10 w-10 items-center justify-center p-2 text-gray-400 hover:text-gray-500"
                                 >
                                     <span class="sr-only">Close menu</span>
-                                    <!-- Heroicon name: outline/x-mark -->
+                                    
                                     <svg
                                         class="h-6 w-6"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -432,7 +433,7 @@
                             </form>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8" -->
                 <main
@@ -453,17 +454,17 @@
                         class="pt-12 lg:grid lg:grid-cols-3 lg:gap-x-8 xl:grid-cols-4"
                     >
                         <aside>
-                            <h2 class="sr-only">Filters</h2>
+                            <!-- <h2 class="sr-only">Filters</h2> -->
 
                             <!-- Mobile filter dialog toggle, controls the 'mobileFilterDialogOpen' state. -->
-                            <button
+                            <!-- <button
                                 type="button"
-                                class="inline-flex items-center lg:hidden"
+                                class="inline-flex items-center"
                             >
                                 <span class="text-sm font-medium text-gray-700"
                                     >Filters</span
                                 >
-                                <!-- Heroicon name: mini/plus -->
+                                
                                 <svg
                                     class="ml-1 h-5 w-5 flex-shrink-0 text-gray-400"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -475,11 +476,11 @@
                                         d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z"
                                     />
                                 </svg>
-                            </button>
+                            </button> -->
 
-                            <div class="hidden lg:block">
+                            <div class="block">
                                 <div
-                                    class="space-y-10 divide-y divide-gray-200"
+                                    class="pb-8 lg:pb-0 lg:space-y-10 lg:divide-y divide-gray-200 grid grid-cols-2 lg:block"
                                 >
                                     <div class="types">
                                         <fieldset>
@@ -505,21 +506,21 @@
                                                     >
                                                 </div>
 
-                                                <div class="flex items-center">
+                                                <!-- <div class="flex items-center">
                                                     <input
-                                                        id="archive-purned"
-                                                        name="archive-purned"
-                                                        value="archive-purned"
+                                                        id="archive-pruned"
+                                                        name="archive-pruned"
+                                                        value="archive-pruned"
                                                         type="checkbox"
                                                         onchange="change();"
                                                         class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500 checkbox"
                                                     />
                                                     <label
-                                                        for="archive-purned"
+                                                        for="archive-pruned"
                                                         class="ml-3 text-sm text-gray-600"
-                                                        >Archive Purned</label
+                                                        >Archive Pruned</label
                                                     >
-                                                </div>
+                                                </div> -->
 
                                                 <div class="flex items-center">
                                                     <input
@@ -540,7 +541,7 @@
                                         </fieldset>
                                     </div>
 
-                                    <div class="pt-10 chains">
+                                    <div class="lg:pt-10 chains">
                                         <fieldset>
                                             <legend
                                                 class="block text-sm font-medium text-gray-900"
@@ -609,7 +610,9 @@
                                 class="grid grid-cols-1 xl:grid-cols-2 gap-8 snapshot-list"
                                 id="snapshot-list"
                             >
-                                <div class="snapshot ethereum archive">
+                                <!-- appending child dynamically -->
+
+                                <!-- <div class="snapshot ethereum archive">
                                     <span
                                         class="bg-white flex items-start px-4 py-6 rounded-2xl border border-gray-200 bg-white shadow"
                                     >
@@ -775,7 +778,7 @@
                                             </p>
                                         </span>
                                     </span>
-                                </div>
+                                </div> -->
                             </div>
 
                             <!-- /End replace -->
