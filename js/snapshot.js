@@ -32,14 +32,6 @@ async function fetchData() {
     }
 }
 
-/* 
-<h5
-    class="text-lg font-semibold"
->
-    Size: <span class="font-normal">${snap.size}</span>
-</h5>
-*/
-
 fetchData();
 
 function change() {
