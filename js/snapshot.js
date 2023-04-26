@@ -6,7 +6,7 @@ async function fetchData() {
 
     for (snap of data) {
         snapshotListContainer.innerHTML += `
-        <div class="snapshot ${snap.class}">
+        <div class="snapshot ${snap.tags}">
             <span
                 class="bg-white flex items-start px-4 py-6 rounded-2xl border border-gray-200 bg-white shadow"
             >
@@ -21,11 +21,6 @@ async function fetchData() {
                         <h3 class="text-xl font-bold">
                             ${snap.title}
                         </h3>
-                        <h5
-                            class="text-lg font-semibold"
-                        >
-                            Size: ${snap.size}
-                        </h5>
                     </span>
                     <p class="font-mono">
                         ${snap.link}
@@ -36,6 +31,14 @@ async function fetchData() {
         `;
     }
 }
+
+/* 
+<h5
+    class="text-lg font-semibold"
+>
+    Size: <span class="font-normal">${snap.size}</span>
+</h5>
+*/
 
 fetchData();
 
