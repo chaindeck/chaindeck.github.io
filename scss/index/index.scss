@@ -257,6 +257,72 @@ canvas {
         }
     }
 
+    .hero-section {
+        padding: 80px 0;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 84px;
+        .hero-content {
+            margin: 0 auto;
+            margin-bottom: 48px;
+            text-align: center;
+            max-width: 768px;
+            h2 {
+                font-size: 48px;
+                font-weight: bold;
+                margin-bottom: 12px;
+            }
+        }
+        .hero-title,
+        .hero-desc {
+            color: white;
+        }
+        .hero-service {
+            height: 100%;
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 52px;
+            a {
+                color: white;
+            }
+            .service-card {
+                max-width: 380px;
+                height: 100%;
+                padding: 36px 24px;
+                background-color: #010027;
+                border-radius: 24px;
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                img {
+                    width: 200px;
+                    height: 200px;
+                    margin: 0 auto;
+                }
+                .service-body {
+                    h3 {
+                        margin-bottom: 8px;
+                        font-size: 28px;
+                        font-weight: bold;
+                    }
+                    p {
+                        color: #ddd;
+                    }
+                }
+            }
+            .service-card:hover {
+                background-color: #05152c;
+                .service-body {
+                    p {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
     .hero-cd-section {
         z-index: 1;
         position: relative;
@@ -2060,6 +2126,12 @@ canvas {
                 }
             }
         }
+        .hero-section {
+            .hero-service {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 48px;
+            }
+        }
         .mission-main-wrapper {
             flex-direction: column;
             gap: 24px;
@@ -2447,6 +2519,12 @@ canvas {
                         width: 90%;
                     }
                 }
+            }
+        }
+        .hero-section {
+            .hero-service {
+                grid-template-columns: repeat(1, 1fr);
+                gap: 28px;
             }
         }
         .mission-main-wrapper {
