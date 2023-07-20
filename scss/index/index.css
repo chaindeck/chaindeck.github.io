@@ -271,10 +271,11 @@ canvas {
   color: white;
 }
 .main-wrapper-section .hero-section .hero-service {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   align-items: stretch;
   justify-items: center;
-  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
   gap: 52px;
 }
 .main-wrapper-section .hero-section .hero-service a {
@@ -1937,9 +1938,11 @@ canvas {
   .main-wrapper-section .hero-cd-section .inner-section .img-wrap img {
     width: 90%;
   }
-  .main-wrapper-section .hero-section .hero-service {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 36px;
+  .main-wrapper-section .hero-section {
+    /* .hero-service {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 36px;
+    } */
   }
   .main-wrapper-section .mission-main-wrapper {
     flex-direction: column;
@@ -2256,9 +2259,11 @@ canvas {
   .main-wrapper-section .hero-cd-section .inner-section .img-wrap img {
     width: 90%;
   }
-  .main-wrapper-section .hero-section .hero-service {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 28px;
+  .main-wrapper-section .hero-section {
+    /* .hero-service {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 28px;
+    } */
   }
   .main-wrapper-section .mission-main-wrapper {
     flex-direction: column;

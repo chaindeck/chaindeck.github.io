@@ -278,11 +278,12 @@ canvas {
             color: white;
         }
         .hero-service {
-            display: grid;
+            display: flex;
+            flex-wrap: wrap;
             align-items: stretch;
             justify-items: center;
-            // justify-content: space-evenly;
-            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+            // grid-template-columns: repeat(3, 1fr);
             gap: 52px;
             a {
                 color: white;
@@ -2137,10 +2138,10 @@ canvas {
             }
         }
         .hero-section {
-            .hero-service {
+            /* .hero-service {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 36px;
-            }
+            } */
         }
         .mission-main-wrapper {
             flex-direction: column;
@@ -2532,10 +2533,10 @@ canvas {
             }
         }
         .hero-section {
-            .hero-service {
+            /* .hero-service {
                 grid-template-columns: repeat(1, 1fr);
                 gap: 28px;
-            }
+            } */
         }
         .mission-main-wrapper {
             flex-direction: column;
