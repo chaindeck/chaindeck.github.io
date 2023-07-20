@@ -225,6 +225,12 @@ canvas {
 }
 
 .main-wrapper-section {
+  /* custom marquee start */
+  /* .marquee img {
+      float: left;
+      width: 50%;
+  } */
+  /* custom marquee end */
   /*FAQ & Team*/
 }
 .main-wrapper-section .customers-section {
@@ -250,7 +256,7 @@ canvas {
   justify-content: center;
 }
 .main-wrapper-section .hero-section {
-  padding: 64px 0;
+  padding: 12px 0;
   display: flex;
   justify-content: center;
   margin-bottom: 84px;
@@ -270,11 +276,12 @@ canvas {
   font-weight: bold;
   margin-bottom: 20px;
 }
-.main-wrapper-section .hero-section .hero-title,
-.main-wrapper-section .hero-section .hero-desc {
+.main-wrapper-section .hero-section .hero-title {
   color: white;
+  line-height: inherit;
 }
 .main-wrapper-section .hero-section .hero-desc {
+  color: #ddd;
   font-size: 28px;
   font-weight: 500;
 }
@@ -327,6 +334,28 @@ canvas {
 }
 .main-wrapper-section .hero-section .hero-service .service-card:hover .service-body p {
   color: white;
+}
+.main-wrapper-section .marquee {
+  height: 100px;
+  width: 90%;
+  overflow: hidden;
+  position: relative;
+}
+.main-wrapper-section .marquee div {
+  display: block;
+  width: 200%;
+  height: 60px;
+  position: absolute;
+  overflow: hidden;
+  animation: marquee 10s linear infinite;
+}
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -80%;
+  }
 }
 .main-wrapper-section .inner-section .chainlist {
   margin-top: 24px;

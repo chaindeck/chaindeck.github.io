@@ -258,7 +258,7 @@ canvas {
     }
 
     .hero-section {
-        padding: 64px 0;
+        padding: 12px 0;
         display: flex;
         justify-content: center;
         margin-bottom: 84px;
@@ -277,11 +277,12 @@ canvas {
                 margin-bottom: 20px;
             }
         }
-        .hero-title,
-        .hero-desc {
+        .hero-title {
             color: white;
+            line-height: inherit;
         }
         .hero-desc {
+            color: #ddd;
             font-size: 28px;
             font-weight: 500;
         }
@@ -343,6 +344,41 @@ canvas {
             }
         }
     }
+
+    /* custom marquee start */
+    .marquee {
+        height: 100px;
+        width: 90%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .marquee div {
+        display: block;
+        width: 200%;
+        height: 60px;
+
+        position: absolute;
+        overflow: hidden;
+
+        animation: marquee 10s linear infinite;
+    }
+
+    /* .marquee img {
+        float: left;
+        width: 50%;
+    } */
+
+    @keyframes marquee {
+        0% {
+            left: 0;
+        }
+        100% {
+            left: -80%;
+        }
+    }
+
+    /* custom marquee end */
 
     .inner-section .chainlist {
         margin-top: 24px;
