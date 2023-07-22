@@ -267,19 +267,29 @@ canvas {
         background-position: left center;
         background-size: contain;
         .hero-content {
-            margin: 0 auto;
+            // margin: 0 auto;
             margin-bottom: 60px;
-            text-align: center;
-            max-width: 768px;
+            // text-align: center;
+            // max-width: 768px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            img {
+                height: 48px;
+                width: auto;
+                border-radius: 0px 0px 4px 0px;
+            }
             h2 {
                 font-size: 48px;
                 font-weight: bold;
-                margin-bottom: 20px;
             }
         }
         .hero-title {
             color: white;
             line-height: inherit;
+            text-align: center;
         }
         .hero-desc {
             color: #ddd;
