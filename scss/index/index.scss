@@ -257,6 +257,146 @@ canvas {
         }
     }
 
+    .hero-section {
+        padding: 12px 0;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 84px;
+        background: url("../../images/blockchainstrip01.png");
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: contain;
+        .hero-content {
+            // margin: 0 auto;
+            margin-bottom: 60px;
+            // text-align: center;
+            // max-width: 768px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            img {
+                height: 60px;
+                width: auto;
+                border-radius: 0px 0px 4px 0px;
+            }
+            h2 {
+                font-size: 48px;
+                font-weight: bold;
+            }
+        }
+        .hero-title {
+            color: white;
+            line-height: inherit;
+            text-align: center;
+        }
+        .hero-desc {
+            color: #ddd;
+            font-size: 28px;
+            font-weight: 500;
+        }
+        .hero-service {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+            justify-items: center;
+            justify-content: center;
+            // grid-template-columns: repeat(3, 1fr);
+            gap: 48px;
+            a {
+                color: white;
+            }
+            .service-card {
+                max-width: 380px;
+                height: 100%;
+                // padding: 36px;
+                background-color: #010027;
+                border-radius: 24px;
+                display: flex;
+                align-items: stretch;
+                flex-direction: column;
+                column-gap: 12px;
+                transition-duration: 500ms;
+                img {
+                    width: 100%;
+                    height: auto;
+                    aspect-ratio: 4/3;
+                    margin: 0px auto;
+                    border-radius: 20px 20px 0px 0px;
+                }
+                .service-body {
+                    padding: 36px;
+                    // display: flex;
+                    // flex-direction: column;
+                    // align-items: center;
+                    // justify-content: baseline;
+                    h3 {
+                        color: white;
+                        margin-bottom: 8px;
+                        font-size: 24px;
+                        font-weight: 700;
+                    }
+                    p {
+                        color: #ddd;
+                    }
+                }
+            }
+            .service-card:hover {
+                background-color: #030232;
+                .service-body {
+                    p {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    /* custom marquee start */
+    .marquee {
+        height: 100px;
+        width: 90%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .marquee div {
+        display: block;
+        width: 200%;
+        height: 60px;
+
+        position: absolute;
+        overflow: hidden;
+
+        animation: marquee 10s linear infinite;
+    }
+
+    /* .marquee img {
+        float: left;
+        width: 50%;
+    } */
+
+    @keyframes marquee {
+        0% {
+            left: 0;
+        }
+        100% {
+            left: -80%;
+        }
+    }
+
+    /* custom marquee end */
+
+    .inner-section .chainlist {
+        margin-top: 24px;
+        display: flex;
+        // flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 48px;
+    }
+
     .hero-cd-section {
         z-index: 1;
         position: relative;
@@ -2060,6 +2200,12 @@ canvas {
                 }
             }
         }
+        .hero-section {
+            /* .hero-service {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 36px;
+            } */
+        }
         .mission-main-wrapper {
             flex-direction: column;
             gap: 24px;
@@ -2448,6 +2594,12 @@ canvas {
                     }
                 }
             }
+        }
+        .hero-section {
+            /* .hero-service {
+                grid-template-columns: repeat(1, 1fr);
+                gap: 28px;
+            } */
         }
         .mission-main-wrapper {
             flex-direction: column;
