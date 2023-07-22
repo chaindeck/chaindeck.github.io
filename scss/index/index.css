@@ -271,10 +271,10 @@ canvas {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 16px;
 }
 .main-wrapper-section .hero-section .hero-content img {
-  height: 48px;
+  height: 60px;
   width: auto;
   border-radius: 0px 0px 4px 0px;
 }
