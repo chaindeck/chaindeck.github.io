@@ -1,0 +1,12 @@
+[01-Sep-2023 05:00:09 UTC] PHP Notice:  Undefined variable: email in /home/designclouds/public_html/Chain-Deck/mail.php on line 69
+[01-Sep-2023 05:00:09 UTC] PHP Notice:  Undefined variable: message in /home/designclouds/public_html/Chain-Deck/mail.php on line 77
+[01-Sep-2023 05:01:10 UTC] PHP Notice:  Undefined variable: email in /home/designclouds/public_html/Chain-Deck/mail.php on line 69
+[01-Sep-2023 05:01:10 UTC] PHP Notice:  Undefined variable: message in /home/designclouds/public_html/Chain-Deck/mail.php on line 77
+[01-Sep-2023 05:07:01 UTC] PHP Notice:  Undefined variable: email in /home/designclouds/public_html/Chain-Deck/mail.php on line 72
+[01-Sep-2023 05:07:01 UTC] PHP Notice:  Undefined variable: message in /home/designclouds/public_html/Chain-Deck/mail.php on line 80
+[01-Sep-2023 05:09:08 UTC] PHP Notice:  Undefined variable: email in /home/designclouds/public_html/Chain-Deck/mail.php on line 72
+[01-Sep-2023 05:09:08 UTC] PHP Notice:  Undefined variable: message in /home/designclouds/public_html/Chain-Deck/mail.php on line 80
+[01-Sep-2023 05:12:06 UTC] PHP Notice:  Undefined variable: email in /home/designclouds/public_html/Chain-Deck/mail.php on line 72
+[01-Sep-2023 05:12:06 UTC] PHP Notice:  Undefined variable: message in /home/designclouds/public_html/Chain-Deck/mail.php on line 80
+[01-Sep-2023 05:16:03 UTC] PHP Notice:  Undefined variable: phone in /home/designclouds/public_html/Chain-Deck/mail.php on line 75
+[01-Sep-2023 05:24:35 UTC] PHP Notice:  Undefined variable: phone in /home/designclouds/public_html/Chain-Deck/mail.php on line 75
