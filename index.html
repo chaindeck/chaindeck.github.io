@@ -148,6 +148,16 @@
                                         Your full house for Web3 infrastructure
                                         and Data
                                     </h2>
+                                    <div class="chain">
+                                        <a
+                                            href="#"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal2"
+                                            ><img
+                                                src="images/Blockchain.png"
+                                                class="img-fluid"
+                                        /></a>
+                                    </div>
                                 </div>
 
                                 <div class="right-slide">
@@ -282,10 +292,10 @@
                 <div class="phonenew">
                     <dv class="callnew">
                         <a
-                            href="#contact"
+                            href="#"
                             data-bs-toggle="modal"
-                            data-bs-target="#exampleModal"
-                            >Get Started
+                            data-bs-target="#exampleModal2"
+                            >Claim your free API key
                         </a>
                     </dv>
                 </div>
@@ -554,7 +564,7 @@
                                 their data is accurate, up-to-date, and easy to
                                 use. Their team is also very responsive and
                                 helpful. We would definitely recommend Chaindeck
-                                to any DeFi project- Nishchal, Algosage
+                                to any DeFi project.
                             </p>
                         </div>
                     </div>
@@ -573,7 +583,7 @@
                             <p>
                                 Chaindeck's ETL pipelines are incredibly
                                 efficient. They have helped us to save a lot of
-                                time and money in data processing. Nikhil, Zeeq
+                                time and money in data processing.
                             </p>
                         </div>
                     </div>
@@ -737,6 +747,49 @@
                                         type="submit"
                                     >
                                         Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="modal fade"
+            id="exampleModal2"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel2"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <form name="couponForm" id="couponForm">
+                            <div class="row g-3">
+                                <div class="col-md-12">
+                                    <div class="form-floating">
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="couponEmail"
+                                            name="couponEmail"
+                                            placeholder="Your Email"
+                                            required
+                                        />
+                                        <label for="couponEmail"
+                                            >Your Email</label
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="col-12" style="margin: 20px auto">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                    >
+                                        Submit
                                     </button>
                                 </div>
                             </div>
@@ -1248,6 +1301,44 @@
             document
                 .querySelector("form")
                 .addEventListener("submit", handleFormSubmit);
+        </script>
+
+        <script>
+            const couponEmail = document.getElementById("couponEmail");
+
+            const handleFormSubmit2 = (event) => {
+                event.preventDefault();
+
+                const couponForm = event.target;
+                const formData = new FormData(couponForm);
+                const data = { email: couponEmail.value };
+
+                console.log(
+                    "🚀 ~ file: index.html:1317 ~ handleFormSubmit2 ~ data:",
+                    data
+                );
+
+                fetch("https://cd.api.chaindeck.io/cd/register", {
+                    method: "POST",
+                    headers: {
+                        accept: "application/json",
+                        "Content-Type": "application/json",
+                    },
+                    // body: new URLSearchParams(formData).toString(),
+                    body: JSON.stringify(data),
+                })
+                    .then(
+                        document.forms["couponForm"].reset(),
+                        alert(
+                            "Please check your email. We have sent you the API key."
+                        )
+                    )
+                    .catch((error) => alert(error));
+            };
+
+            document
+                .getElementById("couponForm")
+                .addEventListener("submit", handleFormSubmit2);
         </script>
     </body>
 </html>
