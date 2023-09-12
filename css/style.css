@@ -213,6 +213,7 @@ button:focus {
 .home-logo {
     width: 100%;
 }
+
 .home-menu span {
     color: #fff;
 }
@@ -225,6 +226,7 @@ button:focus {
 .logo {
     width: 20%;
 }
+
 .logo img {
     height: 42px;
 }
@@ -232,6 +234,7 @@ button:focus {
     width: 60%;
     text-align: center;
 }
+
 .inner-menu {
     position: absolute;
     z-index: 1034;
@@ -249,6 +252,7 @@ button:focus {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
 .vg-nav > ul > li {
     padding: 1px 3px;
 }
@@ -262,6 +266,7 @@ button:focus {
     font-size: 13px;
     padding: 7px;
 }
+
 .vg-nav > ul > li.active a,
 .vg-nav > ul > li a:hover {
     color: #ffcd36;
@@ -353,6 +358,7 @@ button:focus {
     display: flex;
     justify-content: end;
 }
+
 .number {
     padding: 0 30px 0 0;
 }
@@ -361,6 +367,7 @@ button:focus {
     font-weight: 600;
     text-decoration: none;
 }
+
 .call a {
     color: #fff;
     font-weight: 600;
@@ -371,6 +378,7 @@ button:focus {
     border-radius: 60px;
     font-size: 14px;
 }
+
 .call a:hover {
     background: #e75656;
 }
@@ -394,12 +402,14 @@ div#v-pills-tabContent {
     margin-bottom: 30px;
     padding: 0 15px;
 }
+
 .headet-text a {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
     display: block;
 }
+
 
 /******* Slider ************/
 .slider {
@@ -410,11 +420,13 @@ div#v-pills-tabContent {
     z-index: 0; */
 }
 .slider .carousel {
+
 }
 .slider .carousel-item img {
     height: 100vh;
     object-fit: cover;
 }
+
 
 .slider .carousel-caption {
     text-align: left;
@@ -496,6 +508,7 @@ div#v-pills-tabContent {
     left: 48%;
     text-align: center;
 }
+
 .scroll a {
     color: #fff;
     text-decoration: none;
@@ -513,12 +526,14 @@ html {
     line-height: 42px;
 }
 /******* service ************/
+
 .services {
     background-image: url(../images/bg.png);
     position: relative;
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
 
 .project-text h2 {
     color: #fff;
@@ -549,6 +564,7 @@ html {
     top: 327px;
     left: 33%;
 }
+
 .service-text img {
     width: 78%;
     margin: 0 auto 25px;
@@ -570,6 +586,7 @@ html {
     margin-bottom: 40px;
     font-size: 20px;
 }
+
 .service-text a {
     border-radius: 100px;
     background: linear-gradient(
@@ -605,12 +622,14 @@ html {
     margin-bottom: 40px;
     width: 33%;
 }
+
 .trusted-img img {
     width: 70%;
     margin: 0 auto;
     display: block;
 }
 /******* trusted ************/
+
 .events {
     background-size: cover;
     background-position: center;
@@ -627,6 +646,7 @@ html {
     width: 31%;
 }
 /******* support ************/
+
 .support {
     background-image: url(../images/bg3.png) !important;
     background-size: cover;
@@ -652,6 +672,7 @@ html {
     border-radius: 5px;
     margin: 0 15px 30px;
 }
+
 .support-icon img {
     height: 60px;
     object-fit: contain;
@@ -680,11 +701,13 @@ html {
     color: #fff;
     font-weight: 600;
 }
+
 .texti-box span {
     color: #fff;
     margin-bottom: 20px;
     display: block;
 }
+
 .texti-box p {
     color: #fff;
     font-weight: 600;
@@ -700,6 +723,7 @@ html {
     width: 50%;
     padding: 0 190px 0 0;
 }
+
 .left-footer h6 {
     color: #fff;
     font-weight: 600;
@@ -718,6 +742,7 @@ html {
 }
 .footer-menu {
 }
+
 .footer-menu ul {
     list-style-type: none;
 }
@@ -735,11 +760,13 @@ html {
     padding: 0 0 30px 18px;
     font-size: 18px;
 }
+
 .copy p {
     color: #fff;
     margin-bottom: 10px;
     font-weight: 500;
 }
+
 .copy p a {
     font-weight: 600;
     color: #fff;
@@ -1913,7 +1940,6 @@ hr {
     .left-slide h2 {
         font-size: 24px;
         line-height: 37px;
-
         padding: 0px 0 0 0;
     }
     .right-slide {
@@ -2035,7 +2061,6 @@ hr {
     .left-slide h2 {
         font-size: 24px;
         line-height: 37px;
-
         padding: 0px 0 0 0;
     }
     .right-slide {
@@ -2085,4 +2110,5 @@ hr {
 /* media screen and (max-width: 414px)
 ---------------------------------------------------------------------- */
 @media screen and (max-width: 375px) {
+
 }
