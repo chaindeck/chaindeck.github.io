@@ -257,6 +257,7 @@ button:focus {
 }
 
 .vg-nav>ul>li>a {
+
     font-size: 14px;
     line-height: 1.2;
     display: block;
@@ -269,7 +270,9 @@ button:focus {
     text-transform: uppercase;
 }
 
+
 .vg-nav>ul>li {
+
     padding: 1px 3px;
 }
 
@@ -886,7 +889,7 @@ hr {
     border-radius: 16px;
 }
 
-.form-floating>label {
+.form-floating > label {
     position: absolute;
     top: 0;
     left: 0;
@@ -1097,6 +1100,7 @@ hr {
         display: block !important;
     }
 
+
     .vg-nav-sidebar__content>ul>li>a,
     .vg-nav-collapse>ul>li>a {
         display: block;
@@ -1113,7 +1117,15 @@ hr {
         top: 10px;
         right: 15px;
         color: #fff;
-        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: 0px;
+        font-size: 15px;
+    }
+    .service-text {
+        padding: 5px 14px 20px;
+        text-align: center;
+        border-right: solid #fff 0px;
+        border-bottom: 1px solid#fff;
     }
 
     .phone {
