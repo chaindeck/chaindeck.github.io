@@ -270,7 +270,8 @@ button:focus {
     z-index: 1034;
 }
 
-.vg-nav > ul > li > a {
+.vg-nav>ul>li>a {
+
     font-size: 14px;
     line-height: 1.2;
     display: block;
@@ -283,7 +284,9 @@ button:focus {
     text-transform: uppercase;
 }
 
-.vg-nav > ul > li {
+
+.vg-nav>ul>li {
+
     padding: 1px 3px;
 }
 
@@ -298,8 +301,8 @@ button:focus {
     padding: 7px;
 }
 
-.vg-nav > ul > li.active a,
-.vg-nav > ul > li a:hover {
+.vg-nav>ul>li.active a,
+.vg-nav>ul>li a:hover {
     color: #ffcd36;
     font-weight: 600;
 }
@@ -640,11 +643,9 @@ html {
 
 .service-text a {
     border-radius: 100px;
-    background: linear-gradient(
-        129deg,
-        #ff8393 17.21%,
-        rgba(253, 73, 24, 0.76) 89.26%
-    );
+    background: linear-gradient(129deg,
+            #ff8393 17.21%,
+            rgba(253, 73, 24, 0.76) 89.26%);
     padding: 10px;
     color: #fff;
     font-size: 30px;
@@ -926,12 +927,10 @@ hr {
 
 .modal {
     backdrop-filter: blur(5px);
-    background: linear-gradient(
-        90deg,
-        rgb(47 34 113 / 44%) 0%,
-        rgb(47 34 113 / 46%) 39%,
-        rgb(255 45 121 / 45%) 100%
-    );
+    background: linear-gradient(90deg,
+            rgb(47 34 113 / 44%) 0%,
+            rgb(47 34 113 / 46%) 39%,
+            rgb(255 45 121 / 45%) 100%);
 }
 
 .footer-call {
@@ -1110,8 +1109,9 @@ hr {
         display: block !important;
     }
 
-    .vg-nav-sidebar__content > ul > li > a,
-    .vg-nav-collapse > ul > li > a {
+
+    .vg-nav-sidebar__content>ul>li>a,
+    .vg-nav-collapse>ul>li>a {
         display: block;
         padding: 10px 0;
         border-bottom: 1px solid #f2f2f2;
@@ -1284,8 +1284,8 @@ hr {
         display: block !important;
     }
 
-    .vg-nav-sidebar__content > ul > li > a,
-    .vg-nav-collapse > ul > li > a {
+    .vg-nav-sidebar__content>ul>li>a,
+    .vg-nav-collapse>ul>li>a {
         display: block;
         padding: 10px 0;
         border-bottom: 1px solid #f2f2f2;
@@ -1458,8 +1458,8 @@ hr {
         z-index: 999;
     }
 
-    .vg-nav-sidebar__content > ul > li > a,
-    .vg-nav-collapse > ul > li > a {
+    .vg-nav-sidebar__content>ul>li>a,
+    .vg-nav-collapse>ul>li>a {
         display: block;
         padding: 10px 0;
         border-bottom: 1px solid #f2f2f2;
@@ -1491,10 +1491,6 @@ hr {
         line-height: 36px;
         padding: 0 0 0 0;
     }
-
-    /* .hero-cta {
-        margin-top: 12%;
-    } */
 
     .right-slide {
         width: 100%;
@@ -2355,10 +2351,11 @@ hr {
 
 /* media screen and (max-width: 480px)
 ---------------------------------------------------------------------- */
-@media screen and (max-width: 500px) {
-}
+@media screen and (max-width: 500px) {}
 
 /* media screen and (max-width: 414px)
 ---------------------------------------------------------------------- */
+
 @media screen and (max-width: 375px) {
 }
+
