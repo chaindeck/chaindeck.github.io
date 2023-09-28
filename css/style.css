@@ -41,12 +41,12 @@ body {
     color: #fff;
     font-weight: 600;
     text-decoration: none;
-    padding: 20px;
+    padding: 20px 32px;
     font-weight: 400;
     border-radius: 60px;
     background: #ee2970;
     font-weight: 700;
-    width: auto;
+    /* width: auto; */
     text-align: center;
     margin: 0px auto;
     float: none;
@@ -56,13 +56,27 @@ body {
     color: #fff;
     font-weight: 600;
     text-decoration: none;
-    padding: 9px 20px;
+    /* padding: 9px 20px; */
     font-weight: 400;
     border-radius: 60px;
     font-size: 25px;
-    background: #ee2970;
+    /* background: #ee2970; */
     font-weight: 700;
 }
+
+/* .cta-area {
+    color: #fff;
+    font-weight: 600;
+    background-color: #ee2970;
+    padding: 20px 48px;
+    border-radius: 48px;
+}
+
+.cta-area a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+} */
 
 .about-text p {
     color: #000000;
@@ -319,8 +333,6 @@ button:focus {
     color: #fff;
 }
 
-.openBtn:hover {}
-
 .overlay {
     height: 100%;
     width: 100%;
@@ -409,10 +421,6 @@ button:focus {
     font-size: 14px;
 }
 
-.call a:hover {
-    background: #ee2970;
-}
-
 .dropdown-mega-container .nav-link i {
     float: right;
 }
@@ -444,7 +452,6 @@ div#v-pills-tabContent {
     display: block;
 }
 
-
 /******* Slider ************/
 .slider {
     padding: 0px 0 0 0;
@@ -454,16 +461,13 @@ div#v-pills-tabContent {
     z-index: 0; */
 }
 
-.slider .carousel {}
-
 .slider .carousel-item img {
     height: 100vh;
     object-fit: cover;
 }
 
-
 .slider .carousel-caption {
-    text-align: left;
+    text-align: center;
     bottom: 0;
     top: 0;
     padding: 0px;
@@ -477,6 +481,7 @@ div#v-pills-tabContent {
 
 .sliider-text {
     display: flex;
+    align-items: center;
 }
 
 .left-slide {
@@ -493,20 +498,25 @@ div#v-pills-tabContent {
     font-weight: 700;
     color: #fff;
     margin: 0px 0 0px;
-    padding: 60px 0 0 0;
+    /* padding: 60px 0 0 0; */
     position: relative;
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 52px;
     letter-spacing: 1px;
     line-height: 61px;
-    padding-top: 22%;
+    /* padding-top: 22%; */
+}
+
+.hero-cta {
+    margin-top: 10%;
 }
 
 .right-slide img {
     height: 74% !important;
     object-fit: cover !important;
-    margin-top: 12%;
-    margin-left: 14%;
+    margin: 12%;
+    /* margin-left: 14%; */
+    padding: 0px;
 }
 
 .slide-btn:hover {
@@ -574,7 +584,6 @@ html {
     background-size: 100%;
     background-repeat: no-repeat;
 }
-
 
 .project-text h2 {
     color: #fff;
@@ -797,8 +806,6 @@ html {
     text-align: right;
 }
 
-.footer-menu {}
-
 .footer-menu ul {
     list-style-type: none;
 }
@@ -944,12 +951,12 @@ hr {
         color: #fff;
         font-weight: 600;
         text-decoration: none;
-        padding: 26px;
+        /* padding: 20px; */
         font-weight: 400;
         border-radius: 60px;
-        background: #ee2970;
+        /* background: #ee2970; */
         font-weight: 700;
-        width: 70%;
+        /* width: 70%; */
         text-align: center;
         margin: 0px auto;
         float: none;
@@ -960,6 +967,7 @@ hr {
         object-fit: cover !important;
         margin-top: -30px;
         margin-left: 7%;
+        padding: 8%;
     }
 
     .slider .carousel-item img {
@@ -991,12 +999,12 @@ hr {
         color: #fff;
         font-weight: 600;
         text-decoration: none;
-        padding: 26px;
+        /* padding: 20px; */
         font-weight: 400;
         border-radius: 60px;
-        background: #ee2970;
+        /* background: #ee2970; */
         font-weight: 700;
-        width: auto;
+        /* width: auto; */
         text-align: center;
         margin: 24px auto;
         float: none;
@@ -1011,19 +1019,20 @@ hr {
         object-fit: cover !important;
         margin-top: 15px;
         margin-left: 2%;
+        padding: 16%;
     }
 
     .left-slide h2 {
         font-weight: 700;
         color: #fff;
         margin: 0px 0 0px;
-        padding: 60px 0 0 0;
+        /* padding: 60px 0 0 0; */
         position: relative;
         text-transform: uppercase;
-        font-size: 25px;
+        font-size: 40px;
         letter-spacing: 1px;
-        line-height: 37px;
-        padding-top: 20%;
+        line-height: 48px;
+        /* padding-top: 20%; */
     }
 
     .service-text h3 {
@@ -1164,12 +1173,12 @@ hr {
         color: #fff;
         font-weight: 600;
         text-decoration: none;
-        padding: 26px;
+        /* padding: 20px; */
         font-weight: 400;
         border-radius: 60px;
-        background: #ee2970;
+        /* background: #ee2970; */
         font-weight: 700;
-        width: 70%;
+        /* width: 70%; */
         text-align: center;
         margin: 0px auto;
         float: none;
@@ -1185,19 +1194,20 @@ hr {
         object-fit: cover !important;
         margin-top: 15px;
         margin-left: 7%;
+        padding: 0px;
     }
 
     .left-slide h2 {
         font-weight: 700;
         color: #fff;
         margin: 0px 0 0px;
-        padding: 60px 0 0 0;
+        /* padding: 60px 0 0 0; */
         position: relative;
         text-transform: uppercase;
         font-size: 25px;
         letter-spacing: 1px;
         line-height: 37px;
-        padding-top: 20%;
+        /* padding-top: 20%; */
     }
 
     .service-text h3 {
@@ -1318,12 +1328,12 @@ hr {
         color: #fff;
         font-weight: 600;
         text-decoration: none;
-        padding: 26px;
+        /* padding: 20px; */
         font-weight: 400;
         border-radius: 60px;
-        background: #ee2970;
+        /* background: #ee2970; */
         font-weight: 700;
-        width: auto;
+        /* width: auto; */
         text-align: center;
         margin: 0px auto;
         float: none;
@@ -1340,6 +1350,14 @@ hr {
         position: absolute;
         right: -220px;
         top: -14px;
+    }
+
+    .left-slide h2 {
+        font-size: 30px;
+    }
+
+    .right-slide img {
+        padding: 10%;
     }
 }
 
@@ -1395,14 +1413,10 @@ hr {
         display: block !important;
     }
 
-    .services-box {}
-
     .service-text {
         width: 49%;
         margin-top: 10px;
     }
-
-    .event-box {}
 
     .event-img {
         padding: 0 13px;
@@ -1473,9 +1487,9 @@ hr {
     }
 
     .left-slide h2 {
-        font-size: 20px;
+        font-size: 28px;
         line-height: 36px;
-        padding: 0px 0 0 0;
+        padding: 0 0 0 0;
     }
 
     .right-slide {
@@ -1487,6 +1501,7 @@ hr {
         object-fit: cover !important;
         margin-top: -50px;
         margin-left: 51px;
+        padding: 0px;
     }
 
     .project-text h2 {
@@ -1610,12 +1625,12 @@ hr {
         color: #fff;
         font-weight: 600;
         text-decoration: none;
-        padding: 26px;
+        /* padding: 20px; */
         font-weight: 400;
         border-radius: 60px;
-        background: #ee2970;
+        /* background: #ee2970; */
         font-weight: 700;
-        width: 70%;
+        /* width: 70%; */
         text-align: center;
         margin: 0px auto;
         float: none;
@@ -1665,8 +1680,8 @@ hr {
         background: #2f2271;
     }
 
-    .vg-nav-sidebar__content>ul>li>a,
-    .vg-nav-collapse>ul>li>a {
+    .vg-nav-sidebar__content > ul > li > a,
+    .vg-nav-collapse > ul > li > a {
         display: block;
         padding: 10px 0;
         border-bottom: 1px solid #f2f2f2;
@@ -1697,8 +1712,7 @@ hr {
     .left-slide h2 {
         font-size: 24px;
         line-height: 37px;
-
-        padding: 0px 0 0 0;
+        padding: 0 0 0 0;
     }
 
     .right-slide {
@@ -1710,6 +1724,7 @@ hr {
         object-fit: cover !important;
         margin-top: 30px;
         margin-left: 30px;
+        padding: 0px;
     }
 
     .project-text h2 {
@@ -1836,12 +1851,12 @@ hr {
         color: #fff;
         font-weight: 600;
         text-decoration: none;
-        padding: 26px;
+        /* padding: 20px; */
         font-weight: 400;
         border-radius: 60px;
-        background: #ee2970;
+        /* background: #ee2970; */
         font-weight: 700;
-        width: 70%;
+        /* width: 70%; */
         text-align: center;
         margin: 0px auto;
         float: none;
@@ -1891,8 +1906,8 @@ hr {
         background: #2f2271;
     }
 
-    .vg-nav-sidebar__content>ul>li>a,
-    .vg-nav-collapse>ul>li>a {
+    .vg-nav-sidebar__content > ul > li > a,
+    .vg-nav-collapse > ul > li > a {
         display: block;
         padding: 10px 0;
         border-bottom: 1px solid #f2f2f2;
@@ -1923,7 +1938,6 @@ hr {
     .left-slide h2 {
         font-size: 24px;
         line-height: 37px;
-
         padding: 0px 0 0 0;
     }
 
@@ -2062,12 +2076,12 @@ hr {
         color: #fff;
         font-weight: 600;
         text-decoration: none;
-        padding: 26px;
+        /* padding: 20px; */
         font-weight: 400;
         border-radius: 60px;
-        background: #ee2970;
+        /* background: #ee2970; */
         font-weight: 700;
-        width: 70%;
+        /* width: 70%; */
         text-align: center;
         margin: 0px auto;
         float: none;
@@ -2117,8 +2131,8 @@ hr {
         background: #2f2271;
     }
 
-    .vg-nav-sidebar__content>ul>li>a,
-    .vg-nav-collapse>ul>li>a {
+    .vg-nav-sidebar__content > ul > li > a,
+    .vg-nav-collapse > ul > li > a {
         display: block;
         padding: 10px 0;
         border-bottom: 1px solid #f2f2f2;
@@ -2287,8 +2301,8 @@ hr {
     }
 
     .left-slide h2 {
-        font-size: 24px;
-        line-height: 37px;
+        font-size: 36px;
+        line-height: 44px;
         padding: 0px 0 0 0;
     }
 
@@ -2341,4 +2355,7 @@ hr {
 
 /* media screen and (max-width: 414px)
 ---------------------------------------------------------------------- */
-@media screen and (max-width: 375px) {}
+
+@media screen and (max-width: 375px) {
+}
+
